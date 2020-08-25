@@ -26,7 +26,7 @@
             var parsedHash = new URLSearchParams(window.location.hash.substr(1));
             if (parsedHash.get('access_token')) {
                 var access_token = parsedHash.get('access_token');
-                document.getElementById('access_token').textContent = 'Your API Access Key from the url (Submit this as your APIAccessToken): ' + access_token;
+                document.getElementById('access_token').textContent = 'Your API Access Key from the url (Submit this as your ApiToken ) : ' + access_token;
             }
         }
     </script>
